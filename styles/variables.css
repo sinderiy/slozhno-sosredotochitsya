@@ -1,4 +1,20 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --background-color: #FFF1F7;
+  --main-black-color: #353430;
+  --font-color: var(--main-black-color);
+  --decoration-color: var(--main-black-color);
+  --accent-font-color: #FFC2E6;
+  --accent-color: #FF8DCB;
+  --outline-color: #32312D66;
+
+  --font-size-text: 18px;
+  --font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --title-font-size: var(--font-size-text);
+  --font-family: 'IBM Plex mono','Consolas', 'Segoe UI', sans-serif;
+
+  --margin-small: 60px;
+  --margin-big: 80px;
+  --decor-indent: 20px;
+  --border-width: 1px;
+}
