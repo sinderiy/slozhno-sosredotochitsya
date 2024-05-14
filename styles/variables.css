@@ -1,21 +1,23 @@
 :root {
   --background-color: #FFF1F7;
-  --main-black-color: #353430;
-  --font-color: var(--main-black-color);
-  --decoration-color: var(--main-black-color);
-  --accent-font-color: #FFC2E6;
+  --background-image: url("../images/cover-image-light.png");
+  --slogan-font-color: #FFC2E6;
+  --decoration-color: #353430;
   --accent-color: #FF8DCB;
-  --outline-color: #32312D66;
+  --outline-color-translucent: #32312D66;
+  --main-text-color: #353430;
+  --main-title-color: var(--main-text-color);
+  --section-title-text-color: var(--main-text-color);
+  --subtitle-text-color: var(--main-text-color);
+  --button-text-color:var(--main-text-color);
 
   --font-size-text: 18px;
-  --font-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  --font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --title-font-size: var(--font-size-text);
-  --font-family: 'IBM Plex mono','Consolas', 'Segoe UI', sans-serif;
-
-  --margin-small: 60px;
-  --margin-big: 80px;
+  --font-size-slogan: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --font-size-subtitle: var(--font-size-text);
+  
+  --margin-content: 60px;
   --decor-indent: 20px;
   --border-width: 1px;
+  --outline-width: var(--border-width);
 
 }
