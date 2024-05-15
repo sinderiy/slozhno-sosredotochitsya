@@ -20,5 +20,5 @@
   --border-width: 1px;
   --outline-width: var(--border-width);
 
-  --decoration-visibility: hidden; 
+  --decoration-visibility: hidden;
 }
