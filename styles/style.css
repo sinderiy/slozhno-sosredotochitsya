@@ -130,10 +130,6 @@
   line-height: 23.4px;
 }
 
-.header__dark-theme-decoration {
-  visibility: var(--decoration-visibility);
-}
-
 .title-decor {
   background-color: var(--accent-color);
 }
