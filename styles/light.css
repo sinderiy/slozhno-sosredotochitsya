@@ -9,4 +9,6 @@
   --main-title-color: var(--main-text-color);
   --section-title-text-color: var(--main-text-color);
   --subtitle-text-color: var(--main-text-color);
+  --button-text-color:var(--main-text-color);
+  --decoration-visibility: hidden; 
 }
