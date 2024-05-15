@@ -282,7 +282,7 @@
     .section {
       display: flex;
       flex-direction: column;
-      margin-inline: 10px;
+      padding-inline: 10px;
     }
   }
 
