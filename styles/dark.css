@@ -3,6 +3,7 @@
   --background-image: url("../images/cover-image-dark.png");
   --slogan-font-color: #DB00FF;
   --decoration-color: #FF0070;
+  --link-decoration-color: #F1B2CE;
   --accent-color: #FF0070;
   --outline-color-translucent: #FF007066;
   --main-title-color: #000028;
@@ -13,33 +14,13 @@
   --decoration-visibility: visible;
 }
 
-.header__dark-theme-decoration {
-  visibility: var(--decoration-visibility);
-  display: flex;
-  inset-block-start: 20px;
-  inset-inline-end: 29px;
-  color: var(--accent-color);
-  line-height: 25px;
-  position: absolute;
-}
-
-.header__dark-theme-decoration::after {
-  content: "";
-  inline-size: 9px;
-  block-size: 9px;
-  border-radius: 50%;
-  background-color: #FF0070;
-  box-shadow: 0 0 4px 2px #FF0070;
-  margin-inline-start: 10px;
-  align-self: center;
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --background-color: #000028;
     --background-image: url("../images/cover-image-dark.png");
     --slogan-font-color: #DB00FF;
     --decoration-color: #FF0070;
+    --link-decoration-color: #F1B2CE;
     --accent-color: #FF0070;
     --outline-color-translucent: #FF007066;
     --main-title-color: #000028;

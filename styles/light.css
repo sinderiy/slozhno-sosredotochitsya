@@ -3,6 +3,7 @@
   --background-image: url("../images/cover-image-light.png");
   --slogan-font-color: #FFC2E6;
   --decoration-color: #353430;
+  --link-decoration-color: var(--decoration-color);
   --accent-color: #FF8DCB;
   --outline-color-translucent: #32312D66;
   --main-text-color: #353430;
