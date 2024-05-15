@@ -30,8 +30,8 @@
   border-radius: 50%;
   background-color: #FF0070;
   box-shadow: 0 0 4px 2px #FF0070;
-  align-self: center;
   margin-inline-start: 10px;
+  align-self: center;
 }
 
 @media (prefers-color-scheme: dark) {
